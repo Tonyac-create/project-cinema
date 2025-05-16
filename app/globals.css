@@ -13,7 +13,6 @@
   --color-beige: #DAD0C0;  
 }
 
-
 body {
   background: var(--background);
   color: var(--foreground);

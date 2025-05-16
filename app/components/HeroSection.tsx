@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
     return (
-        <section className="flex flex-col items-center gap-4 tracking-wider py-10 relative overflow-visible">
+        <section className="flex flex-col items-center tracking-wider px-7 pt-10 relative overflow-visible">
             <div className="flex items-center gap-2">
                 <Image
                     src="/Logo_2.png"
@@ -13,10 +13,10 @@ export default function HeroSection() {
                     height={100}
                     className="w-[100px] h-auto -rotate-12"
                 />
-                <h1 className="text-6xl font-bold text-beige">CINÉPEDIA</h1>
+                <h1 className="text-4xl font-bold text-beige">CINÉPEDIA</h1>
             </div>
-            <p className="text-4xl font-medium text-beige">La bibliothèque de cinéma français</p>
-            <div className="relative mt-4">
+            <p className="text-2xl font-medium text-beige text-center">La bibliothèque de cinéma français</p>
+            <div className="relative">
                 <Image
                     src="/projecteur.jpg"
                     alt="cinema"
