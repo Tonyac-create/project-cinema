@@ -1,6 +1,7 @@
 import NumberFilmActor from "./NumberFilmActor";
 import SortedFilm from "./SortedFilm";
 import SearchBar from "./SearchBar";
+import Cardfilm from "./Cardfilm";
 
 export default function Section2() {
     return (
@@ -8,6 +9,7 @@ export default function Section2() {
             <NumberFilmActor />
             <SortedFilm />
             <SearchBar />
+            <Cardfilm />
         </section>
     );
 }

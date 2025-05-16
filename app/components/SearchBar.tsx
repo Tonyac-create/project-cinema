@@ -49,6 +49,7 @@ export default function SearchBar() {
                     Rechercher
                 </button>
             </div>
+             <p className="text-sm font-medium text-background">Cliquez sur une affiche pour voir le détail</p>
         </div>
     );
 }
