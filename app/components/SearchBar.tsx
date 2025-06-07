@@ -1,6 +1,6 @@
 export default function SearchBar() {
     return (
-        <div className="flex flex-col items-center gap-4 bg-beige px-7 py-5">
+        <div className="flex flex-col items-center gap-4 bg-beige px-7 pt-5 pb-10">
             <div className="flex flex-wrap gap-6 text-background">
                 <label className="flex items-center gap-2">
                     <input

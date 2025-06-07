@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function NumberFilmActor() {
     return (
-        <div className="flex flex-col md:flex-row justify-center items-center gap-24 bg-beige pt-24 pb-5 tracking-wide">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-9 md:gap-24 bg-beige py-8 md:pt-10 tracking-wide">
             <div className="flex items-center gap-2">
                 <Image
                     src="/icons/clapperboard.png"

@@ -10,7 +10,7 @@ export default function SortedFilm() {
     };
 
     return (
-        <div className="bg-beige flex flex-col md:flex-row justify-center items-center gap-14 pb-5">
+        <div className="bg-beige flex flex-col md:flex-row justify-center items-center gap-9 md:gap-14 pb-5">
             <div className="flex flex-col gap-2">
                 <label htmlFor="genre" className="text-background">Trier par genre</label>
                 <select name="genre" id="genre" className="w-[200px] h-[40px] bg-background text-beige px-2" style={{ maxHeight: '200px' }}>
