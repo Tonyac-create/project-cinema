@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function NumberFilmActor() {
     return (
-        <div className="flex flex-col items-center gap-4 bg-beige pt-24 pb-5 tracking-wide">
-            <div className="flex items-center gap-2 mb-4">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-24 bg-beige pt-24 pb-5 tracking-wide">
+            <div className="flex items-center gap-2">
                 <Image
                     src="/icons/clapperboard.png"
                     alt="logo"
@@ -11,9 +11,9 @@ export default function NumberFilmActor() {
                     quality={100}
                     width={40}
                     height={40}
-                    className="w-[40px] h-auto -rotate-12"
+                    className="w-[40px] h-auto -rotate-12 animate-pulse"
                 />
-                <p className="text-2xl font-medium text-background">+ de 80 000 films</p>
+                <p className="text-2xl lg:text-4xl font-medium text-background">+ de 80 000 films</p>
             </div>
             <div className="flex items-center gap-2">
                 <Image
@@ -23,9 +23,9 @@ export default function NumberFilmActor() {
                     quality={100}
                     width={40}
                     height={40}
-                    className="w-[40px] h-auto -rotate-12"
+                    className="w-[40px] h-auto -rotate-12 animate-pulse"
                 />
-                <p className="text-2xl font-medium text-background">{`+ de 1 000 000 d'acteurs`}</p>
+                <p className="text-2xl lg:text-4xl font-medium text-background">{`+ de 1 000 000 d'acteurs`}</p>
             </div>
         </div>
     );

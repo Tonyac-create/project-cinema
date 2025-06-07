@@ -1,6 +1,6 @@
 export default function SearchBar() {
     return (
-        <div className="flex flex-col items-center gap-4 bg-beige px-7 pb-5">
+        <div className="flex flex-col items-center gap-4 bg-beige px-7 py-5">
             <div className="flex flex-wrap gap-6 text-background">
                 <label className="flex items-center gap-2">
                     <input
@@ -24,6 +24,15 @@ export default function SearchBar() {
                     <input
                         type="radio"
                         name="searchType"
+                        value="compositeur"
+                        className="accent-background"
+                    />
+                    Par compositeur
+                </label>
+                <label className="flex items-center gap-2">
+                    <input
+                        type="radio"
+                        name="searchType"
                         value="annee"
                         className="accent-background"
                     />
@@ -39,7 +48,7 @@ export default function SearchBar() {
                     Par film
                 </label>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-4">
                 <input
                     type="text"
                     placeholder="Bienvenue chez les ch'tis"
@@ -49,7 +58,6 @@ export default function SearchBar() {
                     Rechercher
                 </button>
             </div>
-             <p className="text-sm font-medium text-background">Cliquez sur une affiche pour voir le détail</p>
         </div>
     );
 }

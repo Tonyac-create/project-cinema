@@ -9,6 +9,7 @@ export default function Section2() {
             <NumberFilmActor />
             <SortedFilm />
             <SearchBar />
+            <p className="text-lg font-medium text-beige mt-7 pl-24">Cliquez sur une affiche pour voir le détail</p>
             <Cardfilm />
         </section>
     );
